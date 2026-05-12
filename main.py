@@ -2,6 +2,9 @@
 
 from cliente import Cliente
 
+from servicio import AsesoriaEspecializada
+from reserva import Reserva
+
 from servicio import (
     ReservaSala,
     AlquilerEquipo
@@ -123,3 +126,98 @@ try:
 except Exception as e:
 
     registrar_error(e)
+    
+    
+# operacion 6
+try:
+
+    asesoria = AsesoriaEspecializada(
+        "Asesoria Python",
+        150000,
+        "Avanzada"
+    )
+
+    servicios.append(asesoria)
+
+    registrar_log(
+        "asesoria creada"
+    )
+
+except Exception as e:
+
+    registrar_error(e)
+
+
+# operacion 7
+try:
+
+    reserva1 = Reserva(
+        cliente1,
+        servicio1,
+        3
+    )
+
+    reserva1.confirmar()
+    reserva1.procesar()
+
+except Exception as e:
+
+    registrar_error(e)
+
+
+# operacion 8
+try:
+
+    reserva2 = Reserva(
+        cliente2,
+        servicio2,
+        2
+    )
+
+    reserva2.cancelar()
+
+except Exception as e:
+
+    registrar_error(e)
+
+
+# operacion 9
+try:
+
+    reserva_error = Reserva(
+        cliente1,
+        servicio1,
+        -1
+    )
+
+except Exception as e:
+
+    registrar_error(e)
+
+    print(
+        f"\nerror: {e}"
+    )
+
+
+# operacion 10
+try:
+
+    servicio_error = AlquilerEquipo(
+        "VideoBeam",
+        50000,
+        -2
+    )
+
+except Exception as e:
+
+    registrar_error(e)
+
+    print(
+        f"\nerror: {e}"
+    )
+
+
+print(
+    "\nprograma ejecutado correctamente"
+)
+    

@@ -140,3 +140,41 @@ class AlquilerEquipo(Servicio):
             f"Alquiler de equipo "
             f"por {self.dias} dias"
         )
+        # servicio de asesoria
+class AsesoriaEspecializada(Servicio):
+
+    def __init__(
+        self,
+        nombre,
+        costo_base,
+        nivel
+    ):
+
+        super().__init__(
+            nombre,
+            costo_base
+        )
+
+        self.nivel = nivel
+
+    # calcular costo
+    def calcular_costo(
+        self,
+        impuesto=0,
+        descuento=0
+    ):
+
+        total = self.costo_base
+
+        total += total * impuesto
+        total -= descuento
+
+        return total
+
+    # descripcion
+    def descripcion(self):
+
+        return (
+            f"Asesoria "
+            f"{self.nivel}"
+        )

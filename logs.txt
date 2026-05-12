@@ -3,3 +3,13 @@
 2026-05-11 18:37:40,975 - ERROR - El nombre no puede estar vacío
 2026-05-11 18:37:40,976 - INFO - servicio creado
 2026-05-11 18:37:40,976 - INFO - servicio creado
+2026-05-11 21:07:20,903 - INFO - cliente registrado
+2026-05-11 21:07:20,904 - INFO - cliente registrado
+2026-05-11 21:07:20,905 - ERROR - El nombre no puede estar vacío
+2026-05-11 21:07:20,910 - INFO - servicio creado
+2026-05-11 21:07:20,910 - INFO - servicio creado
+2026-05-11 21:07:20,911 - INFO - asesoria creada
+2026-05-11 21:07:20,911 - INFO - reserva confirmada
+2026-05-11 21:07:20,912 - INFO - reserva cancelada
+2026-05-11 21:07:20,915 - ERROR - La duración no es válida
+2026-05-11 21:07:20,918 - ERROR - Los dias son inválidos
