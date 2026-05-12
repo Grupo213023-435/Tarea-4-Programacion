@@ -57,6 +57,9 @@ try:
     registrar_log(
         "cliente registrado"
     )
+    
+    cliente2.mostrar_info()
+
 
 except Exception as e:
 

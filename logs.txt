@@ -1,0 +1,5 @@
+2026-05-11 18:37:40,962 - INFO - cliente registrado
+2026-05-11 18:37:40,964 - INFO - cliente registrado
+2026-05-11 18:37:40,975 - ERROR - El nombre no puede estar vacío
+2026-05-11 18:37:40,976 - INFO - servicio creado
+2026-05-11 18:37:40,976 - INFO - servicio creado
